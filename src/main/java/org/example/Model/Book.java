@@ -33,10 +33,3 @@ public class Book {
         this.borrowId = borrowId;
     }
 };
-
-class main {
-    public static void main(String[] args) {
-        Book b1 = new Book("1001", "book1", "author1", "borrow1");
-        Book b2 = new Book("1002", "book2", "author2", "borrow2");
-    }
-}
